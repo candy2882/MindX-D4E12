@@ -1,0 +1,5 @@
+number_bacteria = int(input('How many B bacteria are there? '))
+time = int(input('How much time in minutes will you wait? '))
+t = int(time/2)
+bacteria = number_bacteria*2**(t)
+print('After', time, 'minutes we will have', bacteria, 'bacteria')
